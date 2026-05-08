@@ -2,9 +2,6 @@
 
 Site institucional da ScaleSync — empresa focada em crescimento digital através de tráfego pago, automação e análise de dados.
 
-## 🌐 Acesse o site
-https://camillaalvess.github.io/scalesync-site/
-
 ## 💼 Serviços
 
 - Gestão de Tráfego Pago
@@ -21,12 +18,13 @@ https://camillaalvess.github.io/scalesync-site/
 ## ⚙️ Tecnologias utilizadas
 
 - HTML5
-- CSS3
+- CSS
+- JS
 
 ## 📲 Contato
 
 Entre em contato pelo WhatsApp:  
-https://wa.me/5583921421811
+https://wa.link/2lcqm6
 
 ---
 
