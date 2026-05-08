@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ScaleSync — Leads, automação e dados para transformar seu negócio em máquina de vendas.">
+  <title>ScaleSync — Leads. Data. Scale.</title>
+
+  <!-- Preconnect para performance de fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Syne:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Canvas de partículas (background decorativo) -->
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+  <!-- ═══ BOTÃO WHATSAPP FLUTUANTE ═══ -->
+  <a href="https://wa.link/2lcqm6"
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Falar pelo WhatsApp">
+    💬
+  </a>
+  <div class="float-tooltip" aria-hidden="true">💬 Fale agora!</div>
+
+  <!-- ═══ HERO ═══ -->
+  <header class="hero" role="banner">
+    <div class="logo-container">
+      <img src="logo.png"
+           alt="ScaleSync — Leads, Data e Scale"
+           width="260" height="auto"
+           loading="eager">
+    </div>
+
+    <h1 class="hero-tagline">Leads. Data. Scale.</h1>
+    <p class="hero-sub">// Tecnologia que transforma negócios em máquinas de venda</p>
+
+    <a href="https://wa.link/2lcqm6"
+       class="btn-whatsapp"
+       target="_blank"
+       rel="noopener noreferrer">
+      <span class="btn-icon" aria-hidden="true">💬</span>
+      Falar com especialista
+    </a>
+
+    <p class="urgency">
+      🟢 Online agora — resposta em menos de <span>5 min</span>
+    </p>
+  </header>
+
+  <div class="divider" role="separator" aria-hidden="true"></div>
+
+  <!-- ═══ QUEM SOMOS ═══ -->
+  <section id="sobre" aria-labelledby="heading-sobre">
+    <div class="about reveal">
+      <p class="section-label">// sobre nós</p>
+      <h2 id="heading-sobre">Quem Somos</h2>
+      <p class="about-text">
+        A <strong>ScaleSync</strong> é uma empresa focada em <strong>crescimento estruturado</strong>.<br><br>
+        Unimos <strong>tráfego pago</strong>, <strong>automação</strong> e <strong>análise de dados</strong>
+        para transformar negócios comuns em máquinas de vendas previsíveis.
+      </p>
+
+      <div class="stats" role="list">
+        <div class="stat reveal" role="listitem">
+          <div class="stat-num" aria-label="3 vezes crescimento médio">3x</div>
+          <div class="stat-label">Crescimento médio</div>
+        </div>
+        <div class="stat reveal" role="listitem">
+          <div class="stat-num" aria-label="24 horas de suporte ativo">24h</div>
+          <div class="stat-label">Suporte ativo</div>
+        </div>
+        <div class="stat reveal" role="listitem">
+          <div class="stat-num" aria-label="100% foco em resultado">100%</div>
+          <div class="stat-label">Foco em resultado</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" role="separator" aria-hidden="true"></div>
+
+  <!-- ═══ SERVIÇOS ═══ -->
+  <section id="servicos" aria-labelledby="heading-servicos">
+    <p class="section-label reveal">// o que fazemos</p>
+    <h2 id="heading-servicos" class="reveal">Nossos Serviços</h2>
+
+    <div class="cards" role="list">
+      <article class="card reveal" role="listitem">
+        <span class="card-icon" aria-hidden="true">📡</span>
+        <h3>Tráfego Pago</h3>
+        <p>Campanhas estratégicas no Meta Ads para gerar clientes novos todos os dias.</p>
+      </article>
+
+      <article class="card reveal" role="listitem">
+        <span class="card-icon" aria-hidden="true">⚡</span>
+        <h3>Automação</h3>
+        <p>Processos automáticos com IA que aumentam conversão e economizam seu tempo.</p>
+      </article>
+
+      <article class="card reveal" role="listitem">
+        <span class="card-icon" aria-hidden="true">📊</span>
+        <h3>Métricas</h3>
+        <p>Decisões baseadas em dados reais. Relatórios claros, sem achismo.</p>
+      </article>
+    </div>
+  </section>
+
+  <div class="divider" role="separator" aria-hidden="true"></div>
+
+  <!-- ═══ PACOTES ═══ -->
+  <section id="pacotes" class="plans" aria-labelledby="heading-pacotes">
+    <p class="section-label reveal">// escolha seu plano</p>
+    <h2 id="heading-pacotes" class="reveal">Pacotes</h2>
+
+    <div class="cards plan-cards" role="list">
+
+      <!-- Plano Aquisição -->
+      <article class="plan-card reveal" role="listitem">
+        <h3>🥉 Aquisição</h3>
+        <p>Para quem está começando e quer movimento:</p>
+        <ul>
+          <li>Gestão de tráfego pago</li>
+          <li>Configuração Meta Ads</li>
+          <li>1 campanha ativa</li>
+          <li>Público + segmentação</li>
+          <li>Relatório básico</li>
+        </ul>
+        <p class="obs">⚠️ Foco em tráfego (sem promessa de resultado completo)</p>
+        <a href="https://wa.link/xx3eam" class="btn-plan" target="_blank" rel="noopener noreferrer">
+          <span aria-hidden="true">💬</span> Contratar
+        </a>
+      </article>
+
+      <!-- Plano Destaque -->
+      <article class="plan-card destaque reveal" role="listitem" aria-label="Plano mais popular: Aquisição + Conversão">
+        <div class="badge" aria-label="Mais popular">MAIS POPULAR</div>
+        <h3>🥈 Aquisição + Conversão</h3>
+        <p>Onde o resultado começa a acontecer:</p>
+        <ul>
+          <li>Tudo do plano Aquisição</li>
+          <li>Automação de WhatsApp com IA</li>
+          <li>Mensagens automáticas</li>
+          <li>Script de atendimento</li>
+          <li>Qualificação de leads</li>
+        </ul>
+        <a href="https://wa.link/ey5y0o" class="btn-plan" target="_blank" rel="noopener noreferrer">
+          <span aria-hidden="true">💬</span> Contratar
+        </a>
+      </article>
+
+      <!-- Plano Sistema Completo -->
+      <article class="plan-card reveal" role="listitem">
+        <h3>🥇 Sistema Completo</h3>
+        <p>Alta performance e escala total:</p>
+        <ul>
+          <li>Tudo do plano Conversão</li>
+          <li>Site ou página de agendamento</li>
+          <li>Sistema de reservas</li>
+          <li>Integração com WhatsApp</li>
+          <li>Otimização semanal</li>
+          <li>Estratégia de crescimento</li>
+        </ul>
+        <a href="https://wa.link/xqejat" class="btn-plan" target="_blank" rel="noopener noreferrer">
+          <span aria-hidden="true">💬</span> Contratar
+        </a>
+      </article>
+
+    </div>
+
+    <p class="trafego-note reveal">💸 O investimento em anúncios é pago separadamente pelo cliente.</p>
+  </section>
+
+  <div class="divider" role="separator" aria-hidden="true"></div>
+
+  <!-- ═══ CTA FINAL ═══ -->
+  <section id="contato" class="cta-final" aria-labelledby="heading-cta">
+    <p class="section-label reveal">// próximo passo</p>
+    <h2 id="heading-cta" class="reveal">Pronto para escalar<br>seu negócio?</h2>
+    <p class="reveal">Fale agora com um especialista e descubra o plano ideal para você.</p>
+
+    <a href="https://wa.link/2lcqm6"
+       class="btn-cta-main reveal"
+       target="_blank"
+       rel="noopener noreferrer">
+      <span class="btn-icon" aria-hidden="true">💬</span>
+      Falar no WhatsApp agora
+    </a>
+  </section>
+
+  <!-- ═══ RODAPÉ ═══ -->
+  <footer role="contentinfo">
+    <p>© 2025 ScaleSync — Todos os direitos reservados</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
